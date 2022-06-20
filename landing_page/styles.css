@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #6e72ac;
+    color: white;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #8798d3;
+}
+
+#div1{
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    padding-right: 50px;
+    padding-left: 10px;
+}
+
+#img_logo{
+    width: 50px;
+    height: 50px;
+}
+
+#nav_menu{
+    display: flex;
+}
+
+#nav_menu div{
+    padding-right: 10px;
+    width: 100px;
+}
+
+#nav_menu div a{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+#shopping_cart{
+    padding-right: 50px;
+}
+
+/* Cuerpo de la pagina */
+
+.invitacion {
+    text-align: center;
+    font-size: 20px;
+}
+
+.slider li {
+    list-style: none;
+}
+
+
+ul.slider{
+    position: relative;
+    width: 800px;
+    height: 460px;
+}
+
+ul.slider li{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity 0.5s;
+}
+
+ul.slider li img{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 2px solid white
+}
+
+ul.slider li:first-child{
+    opacity: 1;
+}
+
+ul.slider li:target{
+    opacity: 1;
+}
+
+.menu{
+    text-align: center;
+    margin: 20px;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: #6e72ac;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+}
+
+.container{
+    margin: auto;
+    margin-top: 30px;
+    background-color: #7e5e82;
+    width: 800px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+
+/* Footer */
+
+footer{
+    background-color: #5e6095;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    justify-content: space-between;
+}
+
+footer a{
+    color: white;
+    padding-right: 15px;
+}
+
+#foot_div {
+    display: flex;
+}
+#foot_div p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.contact_img{
+    width: 50px;
+    height: 50px;
+    padding-right: 40px;
+
+}
